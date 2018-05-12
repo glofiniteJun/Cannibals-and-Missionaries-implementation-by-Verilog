@@ -1,0 +1,171 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+48
+3554
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+missionary_carnibal_sequential_circuit
+# storage
+db|missionary_carnibal_sequential_circuit.(0).cnf
+db|missionary_carnibal_sequential_circuit.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+db|missionary_carnibal_sequential_circuit.v
+a6b4bbc21aca2e46782b1916c81bd70
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+D_Flip_Flop
+# storage
+db|missionary_carnibal_sequential_circuit.(1).cnf
+db|missionary_carnibal_sequential_circuit.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+db|missionary_carnibal_sequential_circuit.v
+a6b4bbc21aca2e46782b1916c81bd70
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+D_Flip_Flop:FF0
+D_Flip_Flop:FF1
+D_Flip_Flop:FF2
+D_Flip_Flop:FF3
+D_Flip_Flop:FF4
+}
+# macro_sequence
+
+# end
+# entity
+missionary_carnibal_combinational_circuit
+# storage
+db|missionary_carnibal_sequential_circuit.(2).cnf
+db|missionary_carnibal_sequential_circuit.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+db|missionary_carnibal_sequential_circuit.v
+a6b4bbc21aca2e46782b1916c81bd70
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+missionary_carnibal_combinational_circuit:CC0
+}
+# macro_sequence
+
+# end
+# entity
+Additional_module
+# storage
+db|missionary_carnibal_sequential_circuit.(3).cnf
+db|missionary_carnibal_sequential_circuit.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+db|missionary_carnibal_sequential_circuit.v
+a6b4bbc21aca2e46782b1916c81bd70
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+Additional_module:AM0
+}
+# macro_sequence
+
+# end
+# complete
+

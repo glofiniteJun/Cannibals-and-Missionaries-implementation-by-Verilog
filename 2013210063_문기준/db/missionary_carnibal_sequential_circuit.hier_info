@@ -1,0 +1,113 @@
+|missionary_carnibal_sequential_circuit
+L[0] <= Additional_module:AM0.port0
+L[1] <= Additional_module:AM0.port0
+M[0] <= Additional_module:AM0.port1
+M[1] <= Additional_module:AM0.port1
+K <= Additional_module:AM0.port3
+clock => clock.IN5
+reset => reset.IN5
+
+
+|missionary_carnibal_sequential_circuit|D_Flip_Flop:FF0
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+RST => Q~reg0.ACLR
+
+
+|missionary_carnibal_sequential_circuit|D_Flip_Flop:FF1
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+RST => Q~reg0.ACLR
+
+
+|missionary_carnibal_sequential_circuit|D_Flip_Flop:FF2
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+RST => Q~reg0.ACLR
+
+
+|missionary_carnibal_sequential_circuit|D_Flip_Flop:FF3
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+RST => Q~reg0.ACLR
+
+
+|missionary_carnibal_sequential_circuit|D_Flip_Flop:FF4
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+RST => Q~reg0.ACLR
+
+
+|missionary_carnibal_sequential_circuit|missionary_carnibal_combinational_circuit:CC0
+H[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+H[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+I[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+I[1] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => aw2.IN0
+A[0] => aw3.IN0
+A[0] => WideAnd5.IN0
+A[0] => aw12.IN0
+A[0] => WideAnd6.IN0
+A[0] => aw1.IN0
+A[0] => WideAnd2.IN0
+A[0] => WideAnd4.IN0
+A[0] => aw13.IN0
+A[1] => aw1.IN1
+A[1] => WideAnd4.IN1
+A[1] => aw16.IN0
+A[1] => WideAnd5.IN1
+A[1] => WideAnd6.IN1
+A[1] => aw2.IN1
+B[0] => WideAnd1.IN0
+B[0] => aw6.IN0
+B[0] => WideAnd4.IN2
+B[0] => aw16.IN1
+B[0] => aw17.IN0
+B[0] => aw9.IN0
+B[0] => aw15.IN0
+B[0] => WideAnd2.IN1
+B[0] => WideAnd6.IN2
+B[0] => WideAnd0.IN0
+B[0] => WideAnd3.IN0
+B[0] => aw13.IN1
+B[1] => WideAnd0.IN1
+B[1] => WideAnd1.IN1
+B[1] => WideAnd5.IN2
+B[1] => aw12.IN1
+B[1] => aw17.IN1
+B[1] => aw15.IN1
+B[1] => WideAnd4.IN3
+B[1] => WideAnd3.IN1
+D => WideAnd2.IN2
+D => WideAnd3.IN2
+D => aw9.IN1
+D => WideAnd4.IN4
+D => aw3.IN1
+D => WideAnd1.IN2
+D => aw6.IN1
+D => WideAnd0.IN2
+
+
+|missionary_carnibal_sequential_circuit|Additional_module:AM0
+L[0] <= H[1].DB_MAX_OUTPUT_PORT_TYPE
+L[1] <= H[0].DB_MAX_OUTPUT_PORT_TYPE
+M[0] <= I[1].DB_MAX_OUTPUT_PORT_TYPE
+M[1] <= I[0].DB_MAX_OUTPUT_PORT_TYPE
+J <= C.DB_MAX_OUTPUT_PORT_TYPE
+K <= WideAnd0.DB_MAX_OUTPUT_PORT_TYPE
+H[0] => L[1].DATAIN
+H[0] => WideAnd0.IN0
+H[1] => L[0].DATAIN
+H[1] => WideAnd0.IN1
+I[0] => M[1].DATAIN
+I[0] => WideAnd0.IN2
+I[1] => M[0].DATAIN
+I[1] => WideAnd0.IN3
+C => J.DATAIN
+
+

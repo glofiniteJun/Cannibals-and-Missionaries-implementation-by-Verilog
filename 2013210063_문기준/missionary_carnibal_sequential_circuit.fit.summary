@@ -1,0 +1,14 @@
+Fitter Status : Successful - Sun Jun 11 03:57:14 2017
+Quartus II Version : 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition
+Revision Name : missionary_carnibal_sequential_circuit
+Top-level Entity Name : missionary_carnibal_sequential_circuit
+Family : Stratix
+Device : EP1S10B672C6
+Timing Models : Final
+Total logic elements : 10 / 10,570 ( < 1 % )
+Total pins : 7 / 346 ( 2 % )
+Total virtual pins : 0
+Total memory bits : 0 / 920,448 ( 0 % )
+DSP block 9-bit elements : 0 / 48 ( 0 % )
+Total PLLs : 0 / 6 ( 0 % )
+Total DLLs : 0 / 2 ( 0 % )

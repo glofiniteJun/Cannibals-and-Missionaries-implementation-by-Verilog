@@ -1,0 +1,8 @@
+{ "Info" "0" "" "Info: qsta_default_script.tcl version: #1" {  } {  } 0 0 "qsta_default_script.tcl version: #1" 0 0 "" 0 -1}
+{ "Info" "0" "" "Info: Migrating assignments from quartus_tan" {  } {  } 0 0 "Migrating assignments from quartus_tan" 0 0 "" 0 -1}
+{ "Info" "0" "" "Info: ----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "" 0 -1}
+{ "Info" "0" "" "Info: ----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "" 0 -1}
+{ "Info" "0" "" "Info: qtan_qsf2sdc_script.tcl version: #1" {  } {  } 0 0 "qtan_qsf2sdc_script.tcl version: #1" 0 0 "" 0 -1}
+{ "Info" "0" "" "Info: ----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "" 0 -1}
+{ "Info" "0" "" "Info: ----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "" 0 -1}
+{ "Error" "0" "" "Error: Project C:/Users/USER/Desktop/논설 텀프로잭트/dd/missionary_carnibal_sequential_circuit does not exist" {  } {  } 0 0 "Project C:/Users/USER/Desktop/논설 텀프로잭트/dd/missionary_carnibal_sequential_circuit does not exist" 0 0 "" 0 -1}
